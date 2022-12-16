@@ -29,13 +29,24 @@ function blink() {
   development.classList.toggle('blink')
 }
 
-// BUTTON 5 sprint 5
+// BUTTON 6 fix
 
-let sprintVijf = document.querySelector('a:nth-of-type(5)')
+let fix = document.querySelector('a:nth-of-type(6)')
 
-sprintVijf.addEventListener('click', reveal)
-sprintVijf.addEventListener('animationend', reveal)
+fix.addEventListener('click', rotate)
+fix.addEventListener('animationend', rotate)
 
-function reveal() {
-  development.classList.toggle('reveal')
+function rotate() {
+  fix.classList.toggle('rotate')
+}
+
+// BUTTON 9 user
+
+let user = document.querySelector('a:nth-of-type(9)')
+
+user.addEventListener('click', blowOut)
+user.addEventListener('animationend', blowOut)
+
+function blowOut() {
+  user.classList.toggle('blow-out')
 }
