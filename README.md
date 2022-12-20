@@ -1,5 +1,3 @@
-> _Fork_ deze deeltaak en ga aan de slag. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
-
 # UI Events
 Verschillende User Interface events uitproberen met JS en CSS
 
