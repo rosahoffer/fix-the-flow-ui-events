@@ -50,3 +50,4 @@ user.addEventListener('animationend', blowOut)
 function blowOut() {
   user.classList.toggle('blow-out')
 }
+

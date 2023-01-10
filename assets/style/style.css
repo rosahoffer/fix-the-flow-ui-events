@@ -231,7 +231,7 @@ a:nth-of-type(6) {
 
 a:nth-of-type(7) {
   position: relative;
-  background: var(--primary);
+  background: var(--highlight-primary);
   color: var(--secondary);
   border-color: var(--secondary);
   transition: color 0.25s 0.0833333333s;
@@ -260,10 +260,10 @@ a:nth-of-type(7)::after {
   border-radius: 30%;
 }
 a:nth-of-type(7):hover {
-  color:var(--highlight-primary);
+  color:var(--primary);
 }
 a:nth-of-type(7):hover::before, a:nth-of-type(7):hover::after {
-  border-color: var(--highlight-primary);
+  border-color: var(--primary);
   transition: 0s, 0.25s, 0.25s;
   width: 100%;
   height: 100%;
@@ -279,7 +279,7 @@ a:nth-of-type(7):hover::after {
 
 a:nth-of-type(8) {
   position: relative;
-  background: var(--highlight-primary);
+  background: var(--primary);
   color: var(--secondary);
   border-color: var(--secondary);
   overflow: hidden;
@@ -334,4 +334,20 @@ a:nth-of-type(9) {
   100% {
     transform: translateY(20px) scaleY(2.5);
   }
+}
+
+/* BUTTON 10 interface */
+
+a:nth-of-type(10) {
+  position: relative;
+  background: var(--highlight-primary);
+  color: var(--secondary);
+  border-color: var(--secondary);
+}
+
+a:nth-of-type(10):hover {
+  background-color: var(--secondary);
+  color: var(--highlight-primary);
+  letter-spacing: 10px;
+  transition: 350ms ease-in-out;
 }
